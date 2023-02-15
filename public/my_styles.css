@@ -42,7 +42,7 @@ body{
 
 .button {
   /* margin: 10px; margin outside the border*/
-  border:3px rgb(37, 30, 225) solid; 
+  border:20px greenyellow; 
   border-radius: 5px; /*creates rounded border corners*/
   text-decoration: none;
   width:100%;
