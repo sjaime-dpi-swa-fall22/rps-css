@@ -16,12 +16,12 @@ body{
   height: 100vh; /* vh=viewport height; set height to 100% of the viewport height; assign the height of the area we are editing,
   or working inl without this the body would be the same size
   as the container; by default it is only as tall as it needs 
-  to be to contain the content, unless you change it like
+  to be able to contain the content, unless you change it like
   we are doing here */
 }
 .container{
   width: 960px; /*minimizes the width of the content on the page so it doesn't take up the whole page */
-  /* border: 5px green solid; just a test to help is see what area on our page makes up the container element*/
+  /* border: 5px green solid; just a test to help us see what area on our page makes up the container element*/
 }
 
 .row{
@@ -42,7 +42,7 @@ body{
 
 .button {
   /* margin: 10px; margin outside the border*/
-  border:20px greenyellow; 
+  border:3px rgb(149, 239, 14) solid; 
   border-radius: 5px; /*creates rounded border corners*/
   text-decoration: none;
   width:100%;
@@ -50,13 +50,11 @@ body{
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px; /*padding is inside the border*/
+  font-family: 'Comfortaa';
 }
 .player-card {
-  border: thin blueviolet solid;
-  width: 49%
-}
-.computer-card{
-  border: thin green solid;
+  border: thin orangered solid;
+  font-family: 'Dangrek', cursive;
   width: 49%
 }
 
@@ -66,6 +64,7 @@ body{
 }
 .outcome-card{
   border: thin orangered solid;
+  font-family: 'Pacifico';
   background-color: aqua;
   width: 66%
 }
